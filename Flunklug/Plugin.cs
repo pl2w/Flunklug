@@ -12,7 +12,7 @@ namespace Flunklug
         {
             try
             {
-                FlunksonaLoader.Load();
+                FlunksonaLoader.Load(Config);
             }
             catch (Exception e)
             {
